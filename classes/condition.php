@@ -86,7 +86,7 @@ class condition extends \core_availability\condition {
         global $DB, $USER;
 
         // Check condition.
-        if (!is_numeric($this->cmidnumber)) {
+        if (is_numeric($this->cmidnumber)) {
             $cm = $DB->get_record('course_modules', ['idnumber' => $this->cmidnumber]);
         } else {
             $cm = $DB->get_record('course_modules', ['id' => $this->cmidnumber]);

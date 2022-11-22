@@ -29,4 +29,3 @@ $string['full_moduleidnumber'] = 'Disponible si <strong>{$a->cmname}</strong> es
 $string['short_moduleidnumber'] = 'Disponible si <strong>{$a->cmname}</strong> est achevé dans le cours {$a->coursetag}';
 $string['title'] = 'Achèvement d\'une autre activité';
 $string['misnamedmodule'] = 'Module non trouvé. Vérifier le nom ou l\'existance';
-$string['short_othermodulecompletion'] = 'Autre module';

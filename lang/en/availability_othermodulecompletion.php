@@ -31,4 +31,3 @@ $string['full_moduleidnumber'] = 'Available when <strong>{$a->cmname}</strong> i
 $string['short_moduleidnumber'] = 'Available when <strong>{$a->cmname}</strong> is completed in course {$a->coursetag}';
 $string['title'] = 'Other activity';
 $string['misnamedmodule'] = 'Misnamed module, may be not exists any more.';
-$string['short_othermodulecompletion'] = 'Other module';
