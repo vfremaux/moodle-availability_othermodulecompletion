@@ -29,7 +29,7 @@ $plugin->requires = 2022041200;
 $plugin->component = 'availability_othermodulecompletion';
 $plugin->release = '4.0.0 (Build 2020120200)';
 $plugin->maturity = MATURITY_STABLE;
-$plugin->supported = [40,40];
+$plugin->supported = [40, 40];
 
 // Non moodle attributes.
 $plugin->codeincrement = '4.0.0001';
