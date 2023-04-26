@@ -1,2 +1,4 @@
-# moodle-availability_days
-Allows activating activities or sections at a delayed day offset from course aperture
+# moodle-availability_othermodulecompletion
+Allows activating activities or sections upon completion of an activity module in another course.
+
+Note that backup/restore in another moodle WILL NOT be able to remap the pointed course_module by itself.
