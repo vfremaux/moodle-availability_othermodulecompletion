@@ -21,10 +21,7 @@
  * @copyright 2016 Valery Fremaux (valery.fremaux@gmail.com)
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
 namespace availability_othermodulecompletion;
-
-defined('MOODLE_INTERNAL') || die();
 
 /**
  * Front-end class.
@@ -47,7 +44,10 @@ class frontend extends \core_availability\frontend {
      */
     const DATE_SELECTOR_SUPPORTED = false;
 
+    /**
+     * Get strings for Javascript
+     */
     protected function get_javascript_strings() {
-        return array('short_othermodulecompletion', 'conditiontitle');
+        return ['short_othermodulecompletion', 'conditiontitle'];
     }
 }

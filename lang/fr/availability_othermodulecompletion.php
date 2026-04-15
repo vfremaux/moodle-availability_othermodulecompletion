@@ -17,16 +17,17 @@
 /**
  * Language strings.
  *
- * @package availability_days
- * @copyright 2016 Valery Fremaux
- * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     availability_othermodulecompletion
+ * @author      Valery Fremaux (valery.fremaux@gmail.com)
+ * @copyright   2016 Valery Fremaux (http://www.mylearingfactory.com)
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 $string['conditiontitle'] = 'Autre activité (par numéro d\'identification)';
 $string['description'] = 'Empêche l\'accès tant qu\'une autre activité (par numéro d\'identification) n\'est pas achevée.';
-$string['pluginname'] = 'Restriction sur achèvement d\'une autre activité';
 $string['full_moduleidnumber'] = 'Disponible si <strong>{$a->cmname}</strong> est achevé dans le cours {$a->coursetag}';
-$string['short_moduleidnumber'] = 'Disponible si <strong>{$a->cmname}</strong> est achevé dans le cours {$a->coursetag}';
-$string['title'] = 'Achèvement d\'une autre activité';
 $string['misnamedmodule'] = 'Module non trouvé. Vérifier le nom ou l\'existance';
+$string['pluginname'] = 'Restriction sur achèvement d\'une autre activité';
+$string['short_moduleidnumber'] = 'Disponible si <strong>{$a->cmname}</strong> est achevé dans le cours {$a->coursetag}';
 $string['short_othermodulecompletion'] = 'Autre module';
+$string['title'] = 'Achèvement d\'une autre activité';

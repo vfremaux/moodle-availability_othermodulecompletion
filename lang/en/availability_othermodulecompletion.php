@@ -17,18 +17,18 @@
 /**
  * Language strings.
  *
- * @package availability_othermodulecompletion
- * @copyright 2016 Valery Fremaux
- * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package     availability_othermodulecompletion
+ * @author      Valery Fremaux (valery.fremaux@gmail.com)
+ * @copyright   2016 Valery Fremaux (http://www.mylearingfactory.com)
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
-$string['privacy:metadata'] = "The Other Module Completion Availability condition do not manipulate any data belonging to users";
 
 $string['conditiontitle'] = 'Other Module Completion';
 $string['description'] = 'Prevent access until one external activity module (pointed by idnumber) is completed.';
-$string['pluginname'] = 'Restriction by other activity elsewhere is completed';
 $string['full_moduleidnumber'] = 'Available when <strong>{$a->cmname}</strong> is completed in course {$a->coursetag}';
-$string['short_moduleidnumber'] = 'Available when <strong>{$a->cmname}</strong> is completed in course {$a->coursetag}';
-$string['title'] = 'Other activity';
 $string['misnamedmodule'] = 'Misnamed module, may be not exists any more.';
+$string['pluginname'] = 'Restriction by other activity elsewhere is completed';
+$string['privacy:metadata'] = "The Other Module Completion Availability condition do not manipulate any data belonging to users";
+$string['short_moduleidnumber'] = 'Available when <strong>{$a->cmname}</strong> is completed in course {$a->coursetag}';
 $string['short_othermodulecompletion'] = 'Other module';
+$string['title'] = 'Other activity';
